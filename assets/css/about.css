@@ -1,0 +1,55 @@
+#footer {
+    position: absolute;
+    z-index: -1;
+}
+
+#top { 
+    padding-top: 2rem;
+}
+
+#about { 
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+h1 { 
+    animation: 0.5s ease-in-out 0s 1 slideInFromLeft;
+}
+
+#img {
+    animation: 0.5s ease-in-out 0s 1 slideInFromLeft;
+    width: 16rem;
+}
+
+#text { 
+    animation: 0.5s ease-in-out 0s 1 slideInFromLeft;
+}
+
+br {
+    display: block; 
+    content: "";
+    margin-top: 0.8rem; 
+}
+
+#aboutTextField { 
+    background-color: var(--primary);
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px var(--primary);
+    animation: 0.5s ease-in-out 0s 1 slideInFromLeft;
+    
+}
+
+#aboutText {
+    font-family: monospace;
+    text-align: start;
+    color: var(--background);
+    padding: 1rem;
+}
+
+@media screen and (min-width: 1100px) { 
+    #aboutTextField {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}

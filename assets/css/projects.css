@@ -1,0 +1,55 @@
+#section {
+    text-align: center;
+}
+
+.project { 
+    padding-bottom: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    animation: 0.5s ease-in-out 0s 1 slideInFromLeft;
+}
+
+hr {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--primary);
+    border-top: 1px solid;
+}
+
+.top { 
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+h1 { 
+    animation: 0.5s ease-in-out 0s 1 slideInFromLeft;
+}
+
+h2 { 
+    padding-bottom: 0.5rem;
+}
+
+.projectText { 
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.readMore {
+    padding-top: 0.5rem;
+}
+
+
+@media screen and (min-width: 1400px) {
+        #projects {   
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-right: 5rem;
+        padding-left: 5rem;
+        padding-top: 2rem;
+      }
+
+      #footer {
+        position: absolute;
+    }
+}

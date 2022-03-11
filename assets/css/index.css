@@ -1,0 +1,60 @@
+  #home { 
+    text-align: center;
+} 
+
+#welcome {
+    position: relative;
+    transform: translateY(20%);
+    margin: 0 auto;
+    z-index: -1;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+h1 { 
+    animation: 0.5s ease-in-out 0s 1 slideInFromLeft;
+}
+
+#text { 
+    animation: 0.5s ease-in-out 0s 1 slideInFromLeft;
+}
+
+#welcomeImg { 
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    animation: 0.5s ease-in-out 0s 1 slideInFromLeft;
+}
+
+#pp { 
+    width: 10rem;
+    position: relative;
+}
+
+#footer {
+    position: absolute;
+    z-index: -1;
+}
+
+.icon {
+    width: 2.5rem;
+}
+
+#icons { 
+    padding-top: 2rem;
+    animation: 0.5s ease-in-out 0s 1 slideInFromLeft;
+}
+
+@media screen and (min-width: 900px) {
+    #pp {
+        width: 15rem;
+    }
+
+    #welcomeImg { 
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    #icons { 
+        padding-top: 3rem;
+    }
+}
