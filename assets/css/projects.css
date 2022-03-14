@@ -39,8 +39,7 @@ h2 {
     padding-top: 0.5rem;
 }
 
-
-@media screen and (min-width: 1400px) {
+/* @media screen and (min-width: 1400px) {
         #projects {   
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -52,4 +51,4 @@ h2 {
       #footer {
         position: absolute;
     }
-}
+} */
