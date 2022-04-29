@@ -55,7 +55,7 @@ document.getElementById("modeSwitcher").addEventListener("click", () => {
 
 //Typewriter effect
 
-let text = "> Hey, i'm Mattia $ > I live in Bern / Switzerland $ > I'm in an apprenticeship as a software developer $ > In my free time I like to do sports, meet up with friends or play videogames"
+let text = "> Hey, i'm Mattia $ > I live in Dotzigen/Switzerland $ > I'm in an apprenticeship as a software developer $ > In my free time I like to do sports, meet up with friends or play videogames"
 let i = 0;
 const container = document.getElementById("aboutText");
 
